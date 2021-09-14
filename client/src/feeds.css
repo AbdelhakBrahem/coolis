@@ -1,0 +1,197 @@
+.postCard {
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  overflow: hidden;
+  width: 530px;
+  font-family: "Cabin", sans-serif;
+  margin: 10px 5px;
+  box-sizing: border-box;
+  height: 250px;
+}
+
+.volumePost {
+  background-color: #6ee2c3;
+  color: #212529;
+  position: relative;
+  width: 35%;
+  float: left;
+  height: 100%;
+  border-right: 3px dashed rgb(0, 0, 0);
+  background-image: url(image/box.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: overlay;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.vol h1 {
+  font-weight: 700;
+}
+
+.postInfo {
+  padding: 30px;
+  position: relative;
+  width: 65%;
+  float: left;
+  box-sizing: border-box;
+  height: 60%;
+}
+
+.postInfo h6 {
+  display: block;
+}
+
+.postCard h3 {
+  display: inline-block;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+.target {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .description{
+  
+} */
+
+.departure {
+  display: block;
+}
+
+.btn-post {
+  background-color: #00C893;
+  border: 0;
+  outline: none;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 12px 25px;
+  border-radius: 4px;
+  margin-top: 40px;
+  margin-left: 230px;
+}
+
+.btn-addPost {
+  background-color: #00C893;
+  border: 0;
+  outline: none;
+  color: #ffffff;
+  border-radius: 4px;
+  padding: 12px 25px;
+  box-sizing: border-box;
+  font-weight: 600;
+  text-align: center;
+}
+
+.btn-addPost img {
+  margin-right: 5px;
+}
+
+.feed {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.post:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.postWin {
+  width: 600px;
+  height: 450px;
+  background-color: #ffffff;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
+  border-radius: 6px;
+  display: flex;
+  background-image: url(image/box-poste.svg);
+  background-repeat: no-repeat;
+  background-position: 250px;
+  box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.2);
+}
+
+.postform {
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.postform input {
+  width: 400px;
+  height: 50px;
+  margin: 10px;
+}
+
+.postform button {
+  background-color: #00C893;
+  border: 0;
+  outline: none;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 12px 25px;
+  margin: 10px;
+  border-radius: 4px;
+  width: 400px;
+}
+
+.feeds p {
+  font-family: "Cabin", sans-serif;
+  font-size: 40px;
+}
+
+.feeds h1 {
+  font-family: "Cabin", sans-serif;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.postBanner {
+  background-color: #ffffff;
+  padding: 15px 30px;
+  margin: 20px 0px;
+  border-radius: 6px;
+  box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.postSearch input {
+  width: 300px;
+  height: 50px;
+  margin: 10px;
+  border-radius: 4px;
+  border: 1px solid rgb(190, 190, 190);
+  outline: none;
+}
+
+.postSearch button {
+  width: 620px;
+  height: 50px;
+  margin: 10px;
+  background-color: #00C893;
+  border: 0;
+  outline: none;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 12px 25px;
+  margin: 10px;
+  border-radius: 4px;
+  font-family: "Cabin", sans-serif;
+  font-weight: 600;
+}
+
+.postSearchComp {
+  display: flex;
+  flex-wrap: wrap;
+  left: 450px;
+  bottom: 9px;
+  margin-left: 100px;
+}

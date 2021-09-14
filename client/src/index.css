@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+body {
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: white;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding-left: 100px;
+  height: 100px;
+  /* border-bottom: 1px solid #113638; */
+  background-color: #ffffff;
+}
+
+.nav {
+  padding-right: 100px;
+}
+
+.nav a {
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "Cabin", sans-serif;
+  font-weight: 700;
+  color: #113638;
+  margin-left: 30px;
+  background-color: #61366b00;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+.nav a:hover {
+  color: #ffffff;
+  background-color: #00C893;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+.logo {
+  width: 100px;
+}
+
+.heroBox {
+  background-image: url(image/cover.jpg);
+  background-size:cover;
+  height: 500px;
+  background-position: center;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  border-radius: 0 0 100px 100px;
+}
+
+span {
+  background-color: #00C893;
+  /* font-family: "Cabin", sans-serif; */
+  color: #ffffff;
+  box-sizing: border-box;
+  padding: 1px 4px;
+}
+
+.col {
+  align-items: center;
+  
+  box-sizing: border-box;
+  text-align: center;
+  
+}
+
+.col p {
+  font-family: "DM Serif Display", serif;
+  color: rgb(34, 34, 34);
+  font-size: 50px;
+  font-weight: 700;
+  /* margin-left: 50px; */
+  margin-top: 100px;
+}
+
+.search {
+  height: 64px;
+  width: 50%;
+  border-radius: 6px;
+  border: 1px solid #61366b;
+}
+
+.depart {
+  height: 64px;
+  width: 24%;
+  border-radius: 6px;
+  border: 1px solid #61366b;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.arrive {
+  height: 64px;
+  width: 24%;
+  border-radius: 6px;
+  border: 1px solid #61366b;
+}
+
+.search-btn {
+  width: 100%;
+  height: 64px;
+  margin-top: 10px;
+  border-radius: 6px;
+  color: rgb(0, 0, 0);
+  background-color: #ffe651;
+  border: none;
+  font-family: "Cabin", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.search-btn:hover {
+  background-color: #ddc32c;
+}
+
+.thumbnail .row {
+  height: 300px;
+  margin-bottom: 30px;
+}
+
+.boxes {
+  display: flex;
+  justify-content: space-around;
+}
+
+.thumbnail h1 {
+  /* font-family: "Cabin", sans-serif; */
+  font-family: "DM Serif Display", serif;
+
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.box {
+  width: 20%;
+  height: 200px;
+  background-color: rgb(253, 253, 253);
+  /* border: 1px solid rgb(177, 177, 177); */
+  border-radius: 6px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  padding: 30px 13px;
+  box-sizing: border-box;
+  font-family: "Cabin", sans-serif;
+  font-weight: 600;
+  box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.2);
+}
+
+.box img {
+  height: 90px;
+}
+.box p {
+  margin-top: 10px;
+}
+
+.money {
+  height: 400px;
+  display: flex;
+  margin-top: 90px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.textBox {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.textBox h1 {
+  font-family: "DM Serif Display", serif;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.textBox p {
+  font-family: "Cabin", sans-serif;
+  font-size: 20px;
+  line-height: 35px;
+  font-weight: 500;
+}
+
+.photoBox {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.photoBox img {
+  width: 500px;
+}
+
+.textBox button {
+  padding: 0 30px;
+  height: 50px;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 0);
+  color: rgb(0, 0, 0);
+  border: 2px solid #c4c4c4;
+  font-family: "Cabin", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.textBox button:hover {
+  border: 2px solid #00C893;
+}
+
+.slide{
+  height: 400px;
+  margin: 50px 0;
+  background-color: #ffe55146;
+  padding-top: 30px;
+
+}
+
+.slideTitle{
+   font-family: "DM Serif Display", serif;
+   font-weight: 600;
+   font-size: 30px;
+   text-align: center;
+   
+}
+
+.cards{
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.cardBox{
+  width: 250px;
+  height: 250px;
+  border-radius: 6px;
+  color: white;
+  font-family: "DM Serif Display", serif;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardBox a{
+  text-decoration: none;
+
+}
+
+.footer{
+  height: 100px;
+  background-color: #113638;
+  color: #ffffff;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
